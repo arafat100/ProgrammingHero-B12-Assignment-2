@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noto-serif-font {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+.primary-color {
+    color: #E95A08;
+}
+
+.navbar-color {
+    color: #8987A1;
+}
+
+.home-bar-color {
+    color: #252432;
+}
+
+.text-color {
+    color: rgb(0, 0, 0, 50);
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+main>section {
+    margin-top: 120px;
+}
+
+
+/* header styles */
+.header {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* margin-bottom: 120px; */
+
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 415px;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.home {
+    font-weight: bold;
+}
+
+/* banner section */
+.banner-info {
+    width: 570px;
+    height: 299px;
+    /* margin-top: 162px; */
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.banner-description {
+    font-size: 1.25rem;
+}
+
+.banner-image {
+    /* margin-top: 106px; */
+    width: 100%;
+}
+
+/* our plants */
+.our-plant-container {
+    text-align: center;
+}
+
+.card-containers {
+    max-width: 1140px;
+    max-height: 999px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-container {
+    /* max-width: 270;
+    max-height: 70px; */
+    justify-content: center;
+    text-align: center;
+}
