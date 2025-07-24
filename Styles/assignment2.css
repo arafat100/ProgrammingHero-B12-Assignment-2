@@ -36,7 +36,7 @@
 }
 
 .text-color {
-    color: rgb(0, 0, 0, 50);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 main {
@@ -49,6 +49,13 @@ main>section {
     margin-top: 120px;
 }
 
+.btn-primary {
+    width: 270px;
+    height: 50px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+}
 
 /* header styles */
 .header {
@@ -108,6 +115,7 @@ main>section {
     max-height: 999px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+
 }
 
 .card-container {
@@ -115,4 +123,45 @@ main>section {
     max-height: 70px; */
     justify-content: center;
     text-align: center;
+    margin-top: 30px;
+}
+
+/* Flower Section */
+.flower-container {
+    margin-top: 210px;
+    height: 597px;
+    position: relative;
+
+}
+
+.badge {
+    height: 286px;
+    width: 286px;
+    position: absolute;
+    left: 31%;
+    bottom: 73%;
+}
+
+.flower-image {
+    width: 100%;
+}
+
+.flower-info {
+    padding: 38px 0px 38px 60px;
+    height: 521px;
+
+}
+
+.flower-title {
+    font-size: 3.10rem;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.flower-description {
+    font-size: 1.40rem;
+}
+
+ul>li {
+    padding-top: 20px;
 }
